@@ -1,0 +1,5 @@
+PREFILL T0_base prompt_tok=19380 PP=1139.15 TG=36.68 wall=24.1s 2026-09-19 17:21:11
+PREFILL T3_win prompt_tok=19380 PP=403.15 TG=38.06 wall=51.4s 2026-09-19 17:22:24
+PREFILL T7_big_ub_ncmoe prompt_tok=19380 PP=926.26 TG=39.0 wall=23.9s 2026-09-19 17:23:09
+PREFILL T8_prod_ncmoe prompt_tok=19380 PP=1055.27 TG=33.51 wall=22.8s 2026-09-19 17:26:10
+PREFILL T9_prod_ncmoe_t6 prompt_tok=19380 PP=1071.42 TG=35.54 wall=22.3s 2026-09-19 17:26:57
