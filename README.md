@@ -11,6 +11,11 @@
 **引擎**：**AtomicBot b10269-1.6.0**（llama.cpp fork，turbo4 KV + 多轮工具循环修复）
 > 演进：老 TurboQuant fork（PP 102，弃）→ TheTom TQP v0.3.0（turbo4，快但多轮工具循环有 peg-native 400 bug）→ **AtomicBot b10269**（turbo4 全保留 + bug 修复）
 
+
+![ornith-1.5-35b-8g-tuning 实测图表](docs/all-models-compare.png)
+
+**横向对比**：8GB 卡上四个模型的长上下文生成速度。KV 放内存的 9B 在 128K 仍有 42.7 tok/s。原始数据见各仓库 `data/`。
+
 ## 生产配置（start.bat 即仓库内同名文件，零漂移）
 
 ```bat
